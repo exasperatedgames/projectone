@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2364171D1FF8BA2B002C26AB /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364171C1FF8BA2A002C26AB /* Projectile.swift */; };
+		2364171F1FF8BB7A002C26AB /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2364171E1FF8BB7A002C26AB /* Enums.swift */; };
 		8C4B0E661FF8A48600C3A1B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4B0E651FF8A48600C3A1B5 /* AppDelegate.swift */; };
 		8C4B0E681FF8A48600C3A1B5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B0E671FF8A48600C3A1B5 /* GameScene.sks */; };
 		8C4B0E6A1FF8A48600C3A1B5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8C4B0E691FF8A48600C3A1B5 /* Actions.sks */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2364171C1FF8BA2A002C26AB /* Projectile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		2364171E1FF8BB7A002C26AB /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		8C4B0E621FF8A48600C3A1B5 /* ProjectOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C4B0E651FF8A48600C3A1B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C4B0E671FF8A48600C3A1B5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				8C4B0E671FF8A48600C3A1B5 /* GameScene.sks */,
 				8C4B0E691FF8A48600C3A1B5 /* Actions.sks */,
 				8C4B0E6B1FF8A48600C3A1B5 /* GameScene.swift */,
+				2364171E1FF8BB7A002C26AB /* Enums.swift */,
+				2364171C1FF8BA2A002C26AB /* Projectile.swift */,
 				8C4B0E6D1FF8A48600C3A1B5 /* GameViewController.swift */,
 				8C4B0E6F1FF8A48600C3A1B5 /* Main.storyboard */,
 				8C4B0E721FF8A48600C3A1B5 /* Assets.xcassets */,
@@ -147,7 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2364171D1FF8BA2B002C26AB /* Projectile.swift in Sources */,
 				8C4B0E6C1FF8A48600C3A1B5 /* GameScene.swift in Sources */,
+				2364171F1FF8BB7A002C26AB /* Enums.swift in Sources */,
 				8C4B0E6E1FF8A48600C3A1B5 /* GameViewController.swift in Sources */,
 				8C4B0E661FF8A48600C3A1B5 /* AppDelegate.swift in Sources */,
 			);
@@ -287,10 +295,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3569Q6JTMY;
+				DEVELOPMENT_TEAM = 26YH8QDH6P;
 				INFOPLIST_FILE = ProjectOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.exasperatedgames.ProjectOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pauleyer.projectone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,10 +310,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3569Q6JTMY;
+				DEVELOPMENT_TEAM = 26YH8QDH6P;
 				INFOPLIST_FILE = ProjectOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.exasperatedgames.ProjectOne;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pauleyer.projectone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
